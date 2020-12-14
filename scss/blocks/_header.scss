@@ -1,0 +1,64 @@
+.header {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 58px 31px 0 0;
+    font-family: "Bebas Neue Regular";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    margin-bottom: 64px;
+    max-width: 51%;
+    line-height: 15px;
+    margin-left: auto;
+  }
+  &__button {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 16px;
+  }
+  &__line {
+    width: 20px;
+    height: 2px;
+    background-color: #1d1d1b;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+    z-index: 1;
+    &--mobile {
+      position: fixed;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #c5ac84;
+      order: 1;
+      flex-basis: 100%;
+      width: 100%;
+      top: 100px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 100;
+    }
+  }
+  &__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1d1d1b;
+  }
+  &__tel {
+    text-decoration: none;
+    color: #1d1d1b;
+    padding: 12px 16px 11px 8px;
+    border-radius: 10px;
+    border: 1px solid #c7af8a;
+  }
+}

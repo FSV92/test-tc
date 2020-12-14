@@ -1,0 +1,432 @@
+@media (max-width: 1850px) {
+  .booking {
+    &__form {
+      padding-left: 80px;
+    }
+  }
+}
+
+@media (max-width: 1750px) {
+  .booking {
+    &__form {
+      padding-left: 100px;
+    }
+  }
+  .deer {
+    & path {
+      transform: scale(0.96);
+    }
+  }
+}
+
+@media (max-width: 1620px) {
+  .header {
+    &__container {
+      font-size: 22px;
+    }
+  }
+  .main {
+    &-title {
+      &__hotel {
+        font-size: 30px;
+        margin-left: 45px;
+      }
+      &__uppercase {
+        width: calc(277px * 0.7);
+        height: calc(331px * 0.7);
+      }
+      &__lowercase {
+        width: calc(518px * 0.7);
+        height: calc(108px * 0.7);
+      }
+      &__vacantion {
+        font-size: 36px;
+      }
+    }
+  }
+  .booking {
+    &__title {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    &-date {
+      &__input {
+        font-size: 16px;
+      }
+    }
+    &-guests {
+      &__select {
+        font-size: 16px;
+      }
+    }
+    &__button {
+      font-size: 16px;
+    }
+  }
+  .deer {
+    width: 1111px;
+    height: 1395px;
+    & path {
+      transform: scale(0.9);
+    }
+  }
+}
+
+@media (max-width: 1430px) {
+  .booking {
+    &__title {
+      max-width: min-content;
+    }
+    &__form {
+      padding-left: 75px;
+    }
+    &__calendar {
+      margin-right: 8px;
+    }
+    &__date {
+      padding-left: 8px;
+    }
+    &__button {
+      padding: 12px 20px;
+    }
+    &-guests {
+      padding: 7px 8px;
+      &__user {
+        margin-right: 8px;
+      }
+    }
+  }
+  .deer {
+    width: 990px;
+    height: 1260px;
+    left: -260px;
+    top: -150px;
+    & video {
+      padding-top: 150px;
+    }
+    & path {
+      transform: scale(0.8);
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    &__container {
+      max-width: 100%;
+      padding-left: 31px;
+    }
+  }
+  .main {
+    &__container {
+      max-width: 65%;
+      left: 0;
+      margin-left: auto;
+    }
+    &-title {
+      &__hotel {
+        font-size: 28px;
+        margin-left: 35px;
+      }
+      &__uppercase {
+        margin-right: 5px;
+        width: calc(277px * 0.6);
+        height: calc(331px * 0.6);
+      }
+      &__lowercase {
+        width: calc(518px * 0.6);
+        height: calc(108px * 0.6);
+      }
+      &__vacantion {
+        font-size: 31px;
+      }
+    }
+  }
+  .booking {
+    position: relative;
+    &__container {
+      margin-left: 0;
+    }
+    &__frame {
+      left: 35%;
+    }
+    &__title {
+      max-width: max-content;
+    }
+    &__form {
+      padding-left: 31px;
+    }
+    &-date {
+      &__title {
+        font-size: 10px;
+      }
+      &__input {
+        font-size: 12px;
+      }
+    }
+    &-guests {
+      &__title {
+        font-size: 10px;
+      }
+      &__select {
+        font-size: 12px;
+      }
+    }
+    &__button {
+      font-size: 12px;
+    }
+  }
+  .deer {
+    width: 680px;
+    left: -149px;
+    top: 105px;
+    height: 865px;
+    & video {
+      padding-top: 0;
+      object-fit: cover;
+    }
+    & path {
+      transform: scale(0.5);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    &__container {
+      margin-bottom: 40px;
+    }
+  }
+  .main {
+    &-title {
+      margin-bottom: 60px;
+      &__hotel {
+        margin-left: 35px;
+        font-size: 28px;
+      }
+      &__uppercase {
+        width: calc(277px * 0.5);
+        height: calc(331px * 0.5);
+      }
+      &__lowercase {
+        width: calc(518px * 0.5);
+        height: calc(108px * 0.5);
+      }
+      &__vacantion {
+        width: 55%;
+        text-align: right;
+      }
+    }
+    &-info {
+      margin-left: 160px;
+      &__description {
+        max-width: 270px;
+        font-size: 14px;
+      }
+    }
+  }
+  .booking {
+    &__frame {
+      margin-left: 166px;
+    }
+    &__title {
+      width: min-content;
+      margin-right: 25px;
+    }
+    &-date {
+      &__input {
+        max-width: 105px;
+      }
+    }
+  }
+  .deer {
+    width: 555px;
+    height: 710px;
+    left: -150px;
+    top: 110px;
+    & path {
+      transform: scale(0.45);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .body-wrapper {
+    background-size: cover;
+  }
+  .header {
+    &__container {
+      flex-wrap: wrap;
+      padding: 30px 15px 0 15px;
+    }
+    &__button {
+      display: flex;
+    }
+    &__nav {
+      display: none;
+    }
+    &__link {
+      padding: 40px;
+    }
+  }
+  .main {
+    &__container {
+      max-width: 64%;
+    }
+    &-title {
+      margin-bottom: 290px;
+      &__hotel {
+        margin-left: 70px;
+      }
+      &__forest {
+        align-self: flex-end;
+      }
+      &__uppercase {
+        margin-right: 2px;
+        width: calc(277px * 0.4);
+        height: calc(331px * 0.4);
+      }
+      &__lowercase {
+        width: calc(518px * 0.4);
+        height: calc(108px * 0.4);
+      }
+      &__vacantion {
+        width: 65%;
+      }
+    }
+    &__info {
+      margin-left: 43px;
+    }
+    &-info {
+      &__frame-wrap {
+        margin-right: 10px;
+      }
+    }
+  }
+  .booking {
+    &__form {
+      flex-wrap: wrap;
+    }
+    &__frame {
+      margin-left: 55px;
+    }
+    &__wrapper {
+      width: 100%;
+      justify-content: space-between;
+    }
+    &__title {
+      width: max-content;
+      margin-bottom: 10px;
+    }
+    &__date {
+      margin-right: 0;
+    }
+    &__guests {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    &__container {
+      font-size: 20px;
+    }
+  }
+  .main {
+    &__container {
+      max-width: 100%;
+      padding: 0 15px;
+    }
+    &__title {
+      margin-left: auto;
+      margin-bottom: 500px;
+    }
+    &-title {
+      &__forest {
+        margin-bottom: 15px;
+      }
+    }
+    &-info {
+      &__description {
+        font-size: 13px;
+      }
+    }
+  }
+  .booking {
+    &__frame {
+      margin: auto;
+      left: 0;
+      transform: none;
+      &--bottom {
+        transform: rotate(180deg);
+      }
+    }
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+    &__date {
+      margin-bottom: 10px;
+      flex-basis: 49%;
+    }
+  }
+  .deer {
+    width: 435px;
+    height: 550px;
+    left: 0px;
+    top: 310px;
+    & path {
+      transform: scale(0.35);
+    }
+  }
+}
+
+@media (max-width: 456px) {
+  .main {
+    &__title {
+      margin-bottom: 430px;
+    }
+    &-title {
+      &__hotel {
+        margin-left: 35px;
+        font-size: 26px;
+      }
+      &__uppercase {
+        margin-right: 2px;
+        width: calc(277px * 0.35);
+        height: calc(331px * 0.35);
+      }
+      &__lowercase {
+        width: calc(518px * 0.35);
+        height: calc(108px * 0.35);
+      }
+      &__vacantion {
+        font-size: 26px;
+      }
+    }
+    &__info {
+      margin: 0 auto;
+    }
+    &-info {
+      &__frame {
+        &-wrap {
+          transform: none;
+        }
+      }
+    }
+  }
+  .booking {
+    &__date {
+      flex-basis: 100%;
+    }
+  }
+  .deer {
+    width: 372px;
+    height: 472px;
+    left: -70px;
+    top: 300px;
+    & path {
+      transform: scale(0.3);
+    }
+  }
+}

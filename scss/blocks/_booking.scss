@@ -1,0 +1,157 @@
+.booking {
+  &__container {
+    border-top: 2px solid #c5ac84;
+    border-bottom: 2px solid #c5ac84;
+    padding: 2px 0;
+    margin-left: 27%;
+  }
+  &__frame {
+    display: block;
+    position: relative;
+    left: 44%;
+    margin-left: 212px;
+    transform: translateX(-50%);
+    &--bottom {
+      transform: translateX(-50%) rotate(180deg);
+    }
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+    padding: 6px 31px 6px 53px;
+    background-color: #d3c1a2;
+  }
+  &__wrapper {
+    display: flex;
+  }
+  &__title {
+    display: inline-block;
+    color: #1d1d1b;
+    font-family: "Bebas Neue Regular";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 30px 0 0;
+  }
+  &__date {
+    margin-right: 23px;
+  }
+  &-date {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 7px 0 7px 13px;
+    z-index: 10;
+    &__calendar {
+      width: 23px;
+      height: 23px;
+      margin-right: 12px;
+    }
+    &__title {
+      margin: 0;
+      opacity: 0.8;
+      color: #444444;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 12px;
+    }
+    &__input {
+      background-color: transparent;
+      color: #444444;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 20px;
+      border: none;
+      outline: none;
+      padding: 0;
+      margin: 0;
+      max-width: 130px;
+      cursor: pointer;
+      &::-webkit-calendar-picker-indicator,
+      &::-ms-calendar-picker-indicator {
+        margin: 0;
+        padding: 0;
+      }
+      &::-webkit-inner-spin-button,
+      &::-ms-inner-spin-button {
+        display: none;
+      }
+      &::-ms-clear {
+        display: none;
+      }
+    }
+  }
+  &__guests {
+    margin-right: 23px;
+  }
+  &-guests {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 7px 12px 7px 11px;
+    z-index: 10;
+    &__user {
+      width: 19px;
+      height: 19px;
+      margin-right: 13px;
+    }
+    &__other {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__title {
+      margin: 0;
+      opacity: 0.8;
+      color: #444444;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 12px;
+    }
+    &__select {
+      background-color: transparent;
+      margin: auto;
+      appearance: none;
+      border: none;
+      outline: none;
+      color: #444444;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 20px;
+      cursor: pointer;
+    }
+  }
+  &__button {
+    padding: 15px 27px;
+    box-shadow: 0 5px 6px rgba(87, 91, 124, 0.45);
+    border-radius: 3px;
+    background-color: #fbd407;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    z-index: 10;
+    cursor: pointer;
+  }
+}
